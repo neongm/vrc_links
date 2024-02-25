@@ -1,0 +1,136 @@
+@font-face { 
+    font-family: RoundThin;
+    src: url(static/Fonts/MPLUSRounded1c-Thin.ttf);
+} 
+@font-face { 
+    font-family: RoundMedium;
+    src: url(static/Fonts/MPLUSRounded1c-Light.ttf);
+} 
+@font-face { 
+    font-family: RoundRegular;
+    src: url(static/Fonts/MPLUSRounded1c-Regular.ttf);
+} 
+body{
+    font-family: RoundMedium;
+    font-size: 12pt;
+    background-color: #0f0f0f;
+    background: linear-gradient(33deg, rgba(15,15,15,1) 0%, rgba(28,28,28,1) 100%);
+    color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    color: #d9d9d9;
+    display: block;
+    font-family: RoundMedium;
+    text-decoration: none;
+}
+.inline-link{
+    display: inline;
+}
+p{
+    margin: 0px 0px;
+    padding-left: 10px;
+}
+.f-thin{
+    font-family: RoundThin;
+}
+.f-medium{
+    font-family: RoundMedium;
+}
+.f-regular{
+    font-family: RoundRegular;
+}
+
+.center-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rinvo-greeting-header{
+    font-family: RoundThin;
+    width: 100%;
+}
+.b-60{
+    height: 60px;
+}
+.link-box{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #222222;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-block-end: 1px #222222 solid;
+}
+.link-box:hover{
+    background-color: #333333;
+    border-radius: 5px;
+    border-block-end: 1px #b74ffc solid;
+    transition:.2s ease;
+}
+.link-underlined{
+    text-decoration: none;
+}
+.link-underlined:hover{
+    text-decoration: underline;
+}
+
+.link-no-underline{
+    text-decoration: none;
+}
+.ink-no-underline:hover{
+    text-decoration: none;
+}
+.link-description{
+    font-size: 12pt;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: #0f0f0f;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.footer{
+    bottom: 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .text-section{
+        width: 200px;
+        padding: 0% 4%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .text-section{
+        width: 400px;
+        padding: 0% 7%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-section{
+        width: 700px;
+        padding: 0% 9%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .text-section{
+        width: 900px;
+        padding: 0% 12%;
+    }
+}
+
