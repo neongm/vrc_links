@@ -12,7 +12,7 @@
 } 
 
 body{
-    font-family: RoundThin;
+    font-family: RoundMedium;
     font-size: 12pt;
     background-color: #0f0f0f;
     background: linear-gradient(33deg, rgba(15,15,15,1) 0%, rgba(28,28,28,1) 100%);
@@ -36,7 +36,7 @@ p{
     padding-left: 10px;
 }
 .f-thin{
-    font-family: RoundThin;
+    font-family: RoundMedium;
 }
 .f-medium{
     font-family: RoundMedium;
